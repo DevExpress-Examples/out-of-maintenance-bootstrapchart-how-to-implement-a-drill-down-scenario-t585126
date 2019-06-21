@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/Drill-Down Bootstrap Chart on JS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Drill-Down Bootstrap Chart on JS/Default.aspx.vb))
 <!-- default file list end -->
 # BootstrapChart - How to implement a Drill-Down scenario
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t585126/)**
+<!-- run online end -->
 
 
 This example demonstrates how to implement a Drill-Down scenario for BootstrapChart. The main idea of this approach is to switch a data source of the <a href="https://documentation.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapChart.class">BootstrapChart</a> control at runtime. To achieve this, handle the <strong>BootstrapClientChartBase.PointClick</strong> event, then create an appropriate array and pass it to the client-side <strong>PerformCallback</strong> method of the <a href="https://documentation.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapCallbackPanel.class">BootstrapCallbackPanel</a> control. In a callback event handler you need to perform an appropriate method to define the data source and properties, which is necessary to assign them to the BootstrapChart control.<br>
