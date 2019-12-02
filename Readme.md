@@ -1,9 +1,9 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [BootstrapChartDataItem.cs](./CS/Drill-Down Bootstrap Chart on JS/App_Code/BootstrapChartDataItem.cs) (VB: [BootstrapChartDataItem.vb](./VB/Drill-Down Bootstrap Chart on JS/App_Code/BootstrapChartDataItem.vb))
-* **[Default.aspx](./CS/Drill-Down Bootstrap Chart on JS/Default.aspx) (VB: [Default.aspx](./VB/Drill-Down Bootstrap Chart on JS/Default.aspx))**
-* [Default.aspx.cs](./CS/Drill-Down Bootstrap Chart on JS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Drill-Down Bootstrap Chart on JS/Default.aspx.vb))
+* [BootstrapChartDataItem.cs](./CS/Drill-Down%20Bootstrap%20Chart%20on%20JS/App_Code/BootstrapChartDataItem.cs) (VB: [BootstrapChartDataItem.vb](./VB/Drill-Down%20Bootstrap%20Chart%20on%20JS/App_Code/BootstrapChartDataItem.vb))
+* **[Default.aspx](./CS/Drill-Down%20Bootstrap%20Chart%20on%20JS/Default.aspx) (VB: [Default.aspx](./VB/Drill-Down%20Bootstrap%20Chart%20on%20JS/Default.aspx))**
+* [Default.aspx.cs](./CS/Drill-Down%20Bootstrap%20Chart%20on%20JS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Drill-Down%20Bootstrap%20Chart%20on%20JS/Default.aspx.vb))
 <!-- default file list end -->
 # BootstrapChart - How to implement a Drill-Down scenario
 <!-- run online -->
