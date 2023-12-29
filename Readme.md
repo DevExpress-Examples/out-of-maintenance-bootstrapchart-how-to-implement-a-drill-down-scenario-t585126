@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128565932/17.2.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T585126)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -11,9 +6,6 @@
 * [Default.aspx.cs](./CS/Drill-Down%20Bootstrap%20Chart%20on%20JS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Drill-Down%20Bootstrap%20Chart%20on%20JS/Default.aspx.vb))
 <!-- default file list end -->
 # BootstrapChart - How to implement a Drill-Down scenario
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t585126/)**
-<!-- run online end -->
 
 
 This example demonstrates how to implement a Drill-Down scenario for BootstrapChart. The main idea of this approach is to switch a data source of the <a href="https://documentation.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapChart.class">BootstrapChart</a> control at runtime. To achieve this, handle the <strong>BootstrapClientChartBase.PointClick</strong> event, then create an appropriate array and pass it to the client-side <strong>PerformCallback</strong> method of the <a href="https://documentation.devexpress.com/AspNetBootstrap/DevExpress.Web.Bootstrap.BootstrapCallbackPanel.class">BootstrapCallbackPanel</a> control. In a callback event handler you need to perform an appropriate method to define the data source and properties, which is necessary to assign them to the BootstrapChart control.<br>
